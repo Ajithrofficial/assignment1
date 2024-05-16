@@ -1,0 +1,141 @@
+.container{
+    width: 90%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 13px;
+    width: 87%;
+    align-items: center;
+    font-size: xx-large;
+}
+.header{
+    width: 96%;
+    display: block;
+    float: left;
+    padding: 0px;
+    position: relative;
+}
+.title_1{
+    width: 750px;
+    padding-right: 20px;
+    margin-left: -4;
+}
+.title_2{
+    width: 750px;
+    height: 170px;
+    padding-left: 70%;
+    margin-right: 10px;
+}
+.header_menu{
+    width: 100%;
+    display: block;
+}
+.main-navigation{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 13px;
+    margin-bottom: 10px;
+    width: 97%;
+    height: 50%;
+    align-items: center;
+    font-size: xx-large;
+}
+ul li{
+    display: inline;
+    margin: 10px 25px;
+}
+.link{
+    font-size: 28px;
+    color: black;
+    font-weight: 800;
+}
+.link:hover{
+    color: blue;
+}
+.page-head{
+    background-color: #2f426d;
+    color: #fff;
+    display: block;
+    width: 100%;
+    float: left;
+    margin-top: 15px;   
+}
+.image-container{
+    display: grid;
+   grid-template-columns: repeat(2,1fr);
+   column-gap: 50px;
+   margin-top: 5%;
+}
+.image img{
+    width: 50%;
+}
+.details{
+    font-size: 43px;
+    padding-left: 535px;
+    margin-top: 10%;
+}
+.text{
+    margin-left: 40%;
+    margin-top: -960px;
+}
+.location{
+    background-color: #2f426d;
+    color: #fff;
+    display: block;
+    width: 100%;
+    float: left;
+    margin-top: 15px;   
+}
+#contact{
+    margin: 8% 8% 0px 8%;
+}
+.end-heading{
+    text-align: center;
+}
+.icon_set{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+.icon {
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+    display: flex;
+    border-radius: 50%;
+    
+}
+.icon i{
+    font-size: 30px;
+    color: black;
+}
+.icon:hover i{
+    color: #2f426d;
+    animation: shake 0.75s;
+}
+footer{
+    margin: 5rem 0px;
+}
+footer p{
+    text-align: center;
+    font-weight: 800;
+}
+.up-arrow{
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+html{
+    scroll-behavior: smooth;
+}
